@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #ffffff;
+    zoom: 80%;
+}
+@media print {
+    a[href]:after {
+        content: none !important;
+    }
+}
+@page {
+    size: A4; /* auto is the current printer page size */
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    font-size: 11px;
+    font-weight: 700;
+}
+th,
+td {
+    padding: 0.25rem;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+td {
+    font-size: 11px;
+    font-weight: 400;
+}
+tbody tr:nth-child(odd) {
+    background: #eee;
+}
+
+.header-wrapper {
+    text-align: center;
+    display: block;
+}
+
+.header-wrapper h2 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.header-wrapper h4 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.header-wrapper .school-contact {
+    display: flex;
+    justify-content: space-between;
+}
